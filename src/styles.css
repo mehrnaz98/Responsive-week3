@@ -184,13 +184,13 @@ img {
   }
   .masala,
   .weather {
-    width: 120px;
-    font-size: 14px;
+    width: 145px;
+    font-size: 12px;
   }
   .masala:hover,
   .weather:hover {
-    max-width: 100px;
-    font-size: 10px;
+    max-width: 147px;
+    font-size: 13px;
   }
 }
 
