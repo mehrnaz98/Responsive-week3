@@ -1,0 +1,209 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.66) 22.8%,
+    rgba(253, 122, 4, 0.15) 64.6%
+  );
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.name {
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
+.hearts {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+  box-shadow: var(--box-shadow);
+}
+
+.about {
+  font-size: 20px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-shadow: var(--text-shadow);
+}
+
+.contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: 20px;
+}
+
+.masala,
+.weather {
+  border-radius: 4px;
+  padding: 20px 15px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  color: black;
+  background-color: #fbd8fb;
+}
+
+.aboutTitle {
+  font-size: 80px;
+  color: var(--primary-color);
+}
+
+.aboutMe {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid orange;
+  border-radius: 15%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+#contact {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.developer {
+  color: pink;
+  font-size: 20px;
+}
+
+.hobbies {
+  color: pink;
+  font-size: 22.7px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about:hover,
+.contact:hover {
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 200ms ease-in-out;
+}
+
+.weather:hover,
+.masala:hover {
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+#homePage {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+#homePage:hover {
+  cursor: pointer;
+  font-size: larger;
+}
+
+.email:hover {
+  cursor: pointer;
+  font-size: larger;
+}
+
+#container {
+  padding: 20px;
+  max-width: 850px;
+}
+
+#aboutContainer {
+  max-width: 530px;
+}
+
+@media (max-width: 600px) {
+  .links a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 300px;
+  }
+  img:hover {
+    width: 330px;
+  }
+  .masala,
+  .weather {
+    width: 160px;
+    font-size: 14px;
+  }
+  .masala:hover,
+  .weather:hover {
+    max-width: 100px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #aboutContainer {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  #aboutContainer {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
