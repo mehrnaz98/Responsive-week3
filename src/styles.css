@@ -173,16 +173,18 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   img {
     width: 300px;
+    display: block;
+    margin: 0 auto;
   }
   img:hover {
     width: 330px;
   }
   .masala,
   .weather {
-    width: 160px;
+    width: 120px;
     font-size: 14px;
   }
   .masala:hover,
