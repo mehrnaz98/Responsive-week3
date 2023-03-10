@@ -21,12 +21,18 @@ body {
     rgba(248, 196, 249, 0.66) 22.8%,
     rgba(253, 122, 4, 0.15) 64.6%
   );
-  font-family: sans-serif;
+  font-family: "Poppins", serif;
 }
 
 img {
   display: block;
-  margin: 0 auto;
+  margin: 23px 10px 20px 30px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.texts {
+  border-radius: 10px;
 }
 
 .justify {
@@ -182,6 +188,20 @@ img {
   img:hover {
     width: 330px;
   }
+
+  .name {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  #aboutContainer {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .masala,
   .weather {
     width: 145px;
@@ -192,6 +212,15 @@ img {
     max-width: 147px;
     font-size: 13px;
   }
+
+  .about:hover,
+  .contact:hover {
+    font-size: 18px;
+  }
+
+  .justify {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -200,11 +229,8 @@ img {
     display: block;
     margin: 0 auto;
   }
-}
 
-@media (max-width: 500px) {
-  #aboutContainer {
-    width: 300px;
+  img {
     display: block;
     margin: 0 auto;
   }
